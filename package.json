@@ -5,10 +5,8 @@
     "name": "Scott Beck (@bline)"
   },
   "description": "Ractive template loader module for webpack",
-  "peerDependencies": {
-    "ractive": "~0.3.7"
-  },
   "dependencies": {
+    "ractive": "~0.3.7",
     "loader-utils": "0.2.x"
   },
   "licenses": [
