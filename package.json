@@ -1,0 +1,21 @@
+{
+  "name": "rv-loader",
+  "version": "0.0.1",
+  "author": {
+    "name": "Scott Beck (@bline)"
+  },
+  "description": "Ractive template loader module for webpack",
+  "peerDependencies": {
+    "ractive": "~0.3.7"
+  }
+  "dependencies": {
+    "loader-utils": "0.2.x",
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "readmeFilename": "README.md"
+}
