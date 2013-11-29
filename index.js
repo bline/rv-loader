@@ -12,11 +12,6 @@ module.exports = function(source) {
     preserveWhitespace: query.preserveWhitespace || false,
     sanitize: query.sanitize || false
 	});
-	var debugSource = "";
-	if(this.debug) {
-    var req = loaderUtils.getRemainingRequest(this).replace(/^!/, "");
-		debugSource = "require(" + JSON.stringify(path.join(__dirname, "web_modules", "fs")) + ").setFile(" + JSON.stringify(req) + ", " + JSON.stringify(source) + ");\n";
-	}
-	return runtime + debugSource + "module.exports = " + JSON.stringify(tmplArray);
+	return "module.exports = " + JSON.stringify(tmplArray);
 }
 module.exports.seperable = true;
