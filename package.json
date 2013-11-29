@@ -7,7 +7,7 @@
   "description": "Ractive template loader module for webpack",
   "peerDependencies": {
     "ractive": "~0.3.7"
-  }
+  },
   "dependencies": {
     "loader-utils": "0.2.x"
   },
