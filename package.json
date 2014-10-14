@@ -6,7 +6,7 @@
   },
   "description": "Ractive template loader module for webpack",
   "dependencies": {
-    "ractive": "~0.3.7",
+    "ractive": "~0.6.0",
     "loader-utils": "0.2.x"
   },
   "licenses": [
